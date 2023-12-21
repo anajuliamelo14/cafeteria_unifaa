@@ -1,0 +1,30 @@
+GET HTTP://localhost:8081/api/Cliente
+
+###
+
+GET HTTP://localhost:8081/api/Cliente/3
+
+###
+
+POST HTTP://localhost:8081/api/Cliente
+Content-Type: application/json
+
+{
+    "nome": "Bruna Silva",
+    "endereco": "casa",
+}
+
+###
+
+PUT HTTP://localhost:8081/api/tiposCafe
+Content-Type: application/json
+
+{
+    "nome": "Mariana Souza",
+    "endereco": "condominio",
+
+}
+
+###
+
+DELETE  HTTP://localhost:8081/api/Cliente/1

@@ -1,0 +1,35 @@
+GET HTTP://localhost:8081/api/Endereco
+
+###
+
+GET HTTP://localhost:8081/api/Endereco/3
+
+###
+
+POST HTTP://localhost:8081/api/Endereco
+Content-Type: application/json
+
+{
+    "nome": "Café Expresso",
+    "medida": "MILILITROS",
+    "valor": 4.0,
+    "observacao":"Café Expresso Dolce Gusto."
+
+}
+
+###
+
+PUT HTTP://localhost:8081/api/tiposCafe
+Content-Type: application/json
+
+{
+    "nome": "Cappuccino",
+    "medida": "MILILITROS",
+    "valor": 5.0,
+    "observacao":"Cappuccino 3 Corações."
+
+}
+
+###
+
+DELETE  HTTP://localhost:8081/api/Endereco/1

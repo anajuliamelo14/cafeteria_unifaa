@@ -1,0 +1,3 @@
+tipos de cafe: expresso, pingado, frappuccino, cappuccino
+
+nome, valor, un medida, obs
