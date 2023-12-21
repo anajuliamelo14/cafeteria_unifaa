@@ -10,10 +10,14 @@ POST HTTP://localhost:8081/api/Endereco
 Content-Type: application/json
 
 {
-    "nome": "Café Expresso",
-    "medida": "MILILITROS",
-    "valor": 4.0,
-    "observacao":"Café Expresso Dolce Gusto."
+    "cep":00.000-000,
+    "bairro":"exemplo",
+    "numero": 20,
+    "cidade":"Resende",
+    "estado":"Rio de Janeiro",
+    "rua":"rua exemplar",
+    "complemento":"Ao lado do mercado"
+    
 
 }
 
@@ -23,10 +27,13 @@ PUT HTTP://localhost:8081/api/tiposCafe
 Content-Type: application/json
 
 {
-    "nome": "Cappuccino",
-    "medida": "MILILITROS",
-    "valor": 5.0,
-    "observacao":"Cappuccino 3 Corações."
+    "cep":11.000-111,
+    "bairro":"unifaa",
+    "numero": 587,
+    "cidade":"Resende",
+    "estado":"Rio de Janeiro",
+    "rua":"rua unifaa",
+    "complemento":"Esquina do colegio municipal"
 
 }
 
