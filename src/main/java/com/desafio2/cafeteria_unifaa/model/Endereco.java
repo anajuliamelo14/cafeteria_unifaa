@@ -3,12 +3,15 @@ package com.desafio2.cafeteria_unifaa.model;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 @Entity
 public class Endereco {
-   
-    @JsonBackReference
+
+    @Id
     private Long id;
+    @JsonBackReference
+    
     private String cep;
     private String bairro;
     private int numero;
